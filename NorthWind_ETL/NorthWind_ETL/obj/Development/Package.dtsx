@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="9/14/2023 3:28:47 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="DESKTOP-JF0UMLJ"
+  DTS:CreatorName="DESKTOP-JF0UMLJ\ACER"
+  DTS:DTSID="{2F9830EC-9368-4B51-8263-F3033CC17F2D}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="16.0.5228.0"
+  DTS:LocaleID="1033"
+  DTS:ObjectName="Package"
+  DTS:PackageType="5"
+  DTS:VersionBuild="1"
+  DTS:VersionGUID="{69FB0C24-03D8-401C-A59F-985B6414F8A5}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DESKTOP-JF0UMLJ.NorthWindDW]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{3FCB30B2-77B3-46DC-A49E-4DEE60791A21}"
+      DTS:ObjectName="DESKTOP-JF0UMLJ.NorthWindDW">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=DESKTOP-JF0UMLJ;Initial Catalog=NorthWindDW;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package-{3FCB30B2-77B3-46DC-A49E-4DEE60791A21}DESKTOP-JF0UMLJ.NorthWindDW;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DESKTOP-JF0UMLJ.NorthWindStage]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{F654DD63-45E9-4CCE-89A9-A2575E862291}"
+      DTS:ObjectName="DESKTOP-JF0UMLJ.NorthWindStage">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=DESKTOP-JF0UMLJ;Initial Catalog=NorthWindStage;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package-{F654DD63-45E9-4CCE-89A9-A2575E862291}DESKTOP-JF0UMLJ.NorthWindStage;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DESKTOP-JF0UMLJ.NORTHWND]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{B5888A69-C44F-4E69-8557-27CE4AC5C87D}"
+      DTS:ObjectName="DESKTOP-JF0UMLJ.NORTHWND">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=DESKTOP-JF0UMLJ;Initial Catalog=NORTHWND;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package-{B5888A69-C44F-4E69-8557-27CE4AC5C87D}DESKTOP-JF0UMLJ.NORTHWND;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DESKTOP-JF0UMLJ.NW_InventoryLevel]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{1120F851-AF77-4799-BA57-1DB7772F340D}"
+      DTS:ObjectName="DESKTOP-JF0UMLJ.NW_InventoryLevel">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=DESKTOP-JF0UMLJ;Initial Catalog=NW_InventoryLevel;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package-{1120F851-AF77-4799-BA57-1DB7772F340D}DESKTOP-JF0UMLJ.NW_InventoryLevel;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DESKTOP-JF0UMLJ.Temp]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{2973484D-E69D-45D0-8E59-124E015929DD}"
+      DTS:ObjectName="DESKTOP-JF0UMLJ.Temp">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=DESKTOP-JF0UMLJ;Initial Catalog=Temp;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package-{2973484D-E69D-45D0-8E59-124E015929DD}DESKTOP-JF0UMLJ.Temp;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables />
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>
