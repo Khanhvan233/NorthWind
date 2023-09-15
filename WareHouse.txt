@@ -82,7 +82,7 @@ create table DimSupplier
 CREATE TABLE [DimDate](
 	[DateKey] [int] NOT NULL,
 	[Date] [datetime] NULL,
-	[DayOfWeek] [tinyint] NOT NULL,
+	[DayOfWeek] [int] NOT NULL,
 	[DayName] [varchar](9) NOT NULL,
 	[DayOfMonth] [int] NOT NULL,
 	[DayOfYear] [int] NOT NULL,
